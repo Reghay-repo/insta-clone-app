@@ -1,0 +1,27 @@
+.big-side-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+  @media screen and (min-width: $breakpoint-sm-min) {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  @media screen and (min-width: $breakpoint-md-min) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  @media screen and (min-width: $breakpoint-lg-min) {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+
+form,
+.form-fields-wrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+}
+
+.emoji-picker__wrapper {
+  z-index: 10000;
+}
